@@ -1,0 +1,46 @@
+body {
+  font-family: 'Times New Roman', Times, serif
+}
+
+.textbox {
+    text-align: center;
+    font-style: oblique;
+}
+
+.textbox p {
+    font-size: large;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
+}
+
+.key {
+  border: 0.35rem dotted black;
+  border-radius: 1rem;
+  margin: 0.85rem;
+  font-size: 1rem;
+  padding: 1.7rem;
+  text-align: center;
+  color: purple;
+  background: silver;
+  font-style: oblique;
+}
+
+.playing {
+  transform: scale(1.1);
+}
+
+kbd {
+  display:flex;
+  font-size: 2rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform:uppercase;
+  letter-spacing: 0.1rem;
+  color: royalblue;
+}
